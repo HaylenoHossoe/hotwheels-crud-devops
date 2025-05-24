@@ -29,7 +29,12 @@ jobs:
     - name: Run tests
       run: npm run test
 
-    # 5. Criar os artefatos ou build (depende da aplicação)
-    - name: Build the application
-      run: npm run build
+    # 5. Iniciar o servidor
+    - name: Start the server
+      working-directory: ./server
+      run: node server.js
+
+    # 6. Iniciar a aplicação
+    - name: Start the application
+      run: npm run start
 
