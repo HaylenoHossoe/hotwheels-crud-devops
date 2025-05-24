@@ -1,0 +1,38 @@
+.carDetailContainer {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.carDetailContainer h2 {
+  color: #333;
+}
+
+.carDetailContainer p {
+  color: rgb(0, 0, 0);
+}
+
+.carDetailContainer input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  width: calc(100% - 20px);
+}
+
+.carDetailContainer button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: calc(100% - 20px);
+}
+
+.carDetailContainer button:hover {
+  background-color: #0056b3;
+}
