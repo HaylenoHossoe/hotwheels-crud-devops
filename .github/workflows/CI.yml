@@ -32,7 +32,7 @@ jobs:
     # 5. Iniciar o servidor
     - name: Start the server
       working-directory: ./Server
-      run: node server.js
+      run: node server.js &
 
     # 6. Iniciar a aplicação
     - name: Start the application
