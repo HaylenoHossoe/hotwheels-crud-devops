@@ -34,7 +34,7 @@ jobs:
       working-directory: ./Server
       run: node server.js &
 
-    # 6. Iniciar a aplicação
-    - name: Start the application
-      run: npm run start &
+    # 6. Fazer o build da aplicação
+    - name: Build
+      run: npm run build &
 
