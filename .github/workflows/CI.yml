@@ -36,5 +36,5 @@ jobs:
 
     # 6. Iniciar a aplicação
     - name: Start the application
-      run: npm run start
+      run: npm run start &
 
