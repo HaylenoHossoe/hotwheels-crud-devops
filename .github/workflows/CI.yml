@@ -36,5 +36,5 @@ jobs:
 
     # 6. Fazer o build da aplicação
     - name: Build
-      run: npm run build &
+      run: npm run build
 
