@@ -59,13 +59,13 @@ const CarForm = ({ addCar, editCar, deleteCar, editingCar, cars }) => {
     } 
   };
 
-  const handleDelete = async () => {
+/*  const handleDelete = async () => {
     if (window.confirm('Tem certeza de que deseja excluir este carro?')) {
       await deleteCar(newCar.id);
       navigate('*');
     }
   };
-
+*/
   const handleCancel = () => {
     navigate('/cars');
   };
