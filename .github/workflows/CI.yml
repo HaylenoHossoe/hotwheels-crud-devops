@@ -23,7 +23,7 @@ jobs:
 
     # 3. Instalar dependências
     - name: Install dependencies
-      run: npm ci
+      run: npm install
 
     # 4. Rodar os testes (Opcional, pode ser removido se não for necessário)
     # - name: Run tests
