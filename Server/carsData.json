@@ -26,5 +26,12 @@
     "color": "Cinza",
     "year": "1996",
     "id": 7
+  },
+  {
+    "name": "Kombi",
+    "brand": "VW",
+    "color": "Amarela",
+    "year": "1977",
+    "id": 8
   }
 ]
